@@ -1,0 +1,93 @@
+/* Bouton pour afficher/masquer la colonne */
+.toggle-nav-btn {
+    position: fixed;
+    top: 10px;
+    left: 1px;
+    background-color: #e3b012;
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 20;
+}
+
+/* Case à cocher cachée */
+.toggle-nav-checkbox {
+    display: none;
+}
+
+/* Colonne de navigation */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px; /* Largeur de la colonne */
+    height:100%;
+    background-color: #e3b012;
+    padding-top: 60px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    opacity: 0.9;
+    transition: left 0.45s ease; /* Transition lors du déplacement */
+}
+
+/* Lorsqu'on cache la colonne */
+.toggle-nav-checkbox:checked ~ #sidebar {
+    left: -250px; /* Cache la colonne en la déplaçant vers la gauche */
+}
+
+/* Menu des liens dans la colonne de navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 20px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-size: 22px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Conteneur principal ajusté */
+.container {
+    display: flex;
+    margin-left: 200px; /* Largeur de la colonne + un peu d'espace */
+    transition: margin-left 0.3s ease; /* Pour l'animation lors de l'extension/fermeture de la colonne */
+    gap: 20px;
+}
+
+/* Colonne des unités */
+.units-column {
+    flex: 3;
+}
+
+/* Colonne des liens ou menu */
+.links-column {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Lorsque la colonne est fermée, réduire l'espace du contenu principal */
+.toggle-nav-checkbox:checked ~ .container {
+    margin-left: 20px;  /* Réduit l'espace à gauche lorsque la colonne est cachée */
+}
+
+
+/* Centrer le titre de la liste des unités */
+h1 {
+    text-align: center; /* Centre le texte */
+    margin-bottom: 20px; /* Ajoute un espace en bas du titre */
+}
