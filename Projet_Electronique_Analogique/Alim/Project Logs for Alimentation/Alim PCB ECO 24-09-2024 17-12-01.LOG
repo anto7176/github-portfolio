@@ -1,0 +1,33 @@
+Added Component: Designator=J1(691417420002)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Wurth Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "691417420002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "105951396"; VariantName = "[No Variations]"
+Added Component: Designator=J2(691417420002)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Wurth Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "691417420002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "105951396"; VariantName = "[No Variations]"
+Added Component: Designator=J3(691417420002)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Wurth Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "691417420002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "105951396"; VariantName = "[No Variations]"
+Added Component: Designator=J4(691417420002)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Wurth Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "691417420002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "105951396"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J2-1
+Added Pin To Net: NetName=+5V Pin=J2-2
+Added Pin To Net: NetName=GND Pin=J3-1
+Added Pin To Net: NetName=+3V3 Pin=J3-2
+Added Pin To Net: NetName=GND Pin=J4-1
+Added Pin To Net: NetName=+1V8 Pin=J4-2
+Added Pin To Net: NetName=+12V Pin=J1-2
+Added Net: Name=+12V
+Added Member To Class: ClassName=Alim Member=Component J1 691417420002
+Added Member To Class: ClassName=Alim Member=Component J2 691417420002
+Added Member To Class: ClassName=Alim Member=Component J3 691417420002
+Added Member To Class: ClassName=Alim Member=Component J4 691417420002

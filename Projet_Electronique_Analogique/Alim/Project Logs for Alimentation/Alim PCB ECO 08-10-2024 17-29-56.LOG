@@ -1,0 +1,8 @@
+Change Component Footprint: Designator=J1 Old Footprint=691417420002 New Footprint=691417420002
+Change Component Footprint: Designator=J2 Old Footprint=691417420002 New Footprint=691417420002
+Change Component Footprint: Designator=J3 Old Footprint=691417420002 New Footprint=691417420002
+Change Component Footprint: Designator=J4 Old Footprint=691417420002 New Footprint=691417420002
+Change Component Footprint: Designator=L1 Old Footprint=WE-PDA_1260 New Footprint=WE-PDA_1260
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C16-1
