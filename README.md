@@ -33,5 +33,4 @@ Voici un aperçu des technologies et compétences que j'ai utilisées dans ces p
 
 Si vous souhaitez en savoir plus ou discuter d'opportunités professionnelles, n'hésitez pas à me contacter :
 
-- **GitHub** : [https://github.com/anto7176](https://github.com/anto7176)
-- **Email** : [ton.email@example.com](mailto:ton.email@example.com)
+- **Email** : [antoine.vadot71@gmail.com](mailto:antoine.vadot71@gmail.com)
